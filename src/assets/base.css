@@ -1,0 +1,12 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fix unwanted margin issue caused by Vue scoped CSS on <nav> */
+@media (min-width: 1024px) {
+  nav {
+    margin: 0 !important;
+  }
+}

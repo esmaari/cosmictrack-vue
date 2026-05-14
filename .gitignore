@@ -1,0 +1,10 @@
+# Vite / Vue / Node.js projeleri için
+node_modules/
+dist/
+
+# Env — local secrets (Vite loads .env.local over .env). .env.example stays tracked.
+.env
+.env.local
+.env.*.local
+
+.DS_Store
